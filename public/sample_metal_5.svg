@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="tube" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#475569" />
+      <stop offset="50%" stop-color="#94a3b8" />
+      <stop offset="100%" stop-color="#334155" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg)" rx="12" />
+  <!-- Square tube bundle cross-section view -->
+  <g transform="translate(140, 90)">
+    <rect x="0" y="0" width="60" height="60" fill="none" stroke="url(#tube)" stroke-width="12" rx="4"/>
+    <rect x="75" y="0" width="60" height="60" fill="none" stroke="url(#tube)" stroke-width="12" rx="4"/>
+    <rect x="150" y="0" width="60" height="60" fill="none" stroke="url(#tube)" stroke-width="12" rx="4"/>
+    <rect x="35" y="70" width="60" height="60" fill="none" stroke="url(#tube)" stroke-width="12" rx="4"/>
+    <rect x="110" y="70" width="60" height="60" fill="none" stroke="url(#tube)" stroke-width="12" rx="4"/>
+  </g>
+  <!-- Scale Stamp Overlay -->
+  <rect x="360" y="270" width="200" height="90" rx="8" fill="#1e222d" stroke="#a855f7" stroke-width="2" />
+  <text x="375" y="300" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12" font-weight="600">CERTIFIED SCALE NET:</text>
+  <text x="375" y="332" fill="#c084fc" font-family="monospace" font-size="24" font-weight="bold">6,000 kg</text>
+  <text x="375" y="350" fill="#64748b" font-family="system-ui, sans-serif" font-size="11">80x80x4 • TubeMaster</text>
+  <!-- Warehouse Tag -->
+  <rect x="40" y="30" width="160" height="32" rx="6" fill="#a855f7" fill-opacity="0.2" stroke="#a855f7" stroke-width="1.5" />
+  <text x="52" y="51" fill="#c084fc" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">SQUARE TUBES INTAKE</text>
+</svg>

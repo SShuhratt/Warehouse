@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="metal" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#64748b" />
+      <stop offset="50%" stop-color="#94a3b8" />
+      <stop offset="100%" stop-color="#475569" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg)" rx="12" />
+  <g transform="translate(60, 60)">
+    <!-- Steel Billet Stack -->
+    <rect x="20" y="160" width="440" height="40" fill="url(#metal)" rx="4" stroke="#334155" stroke-width="2"/>
+    <rect x="30" y="110" width="420" height="40" fill="url(#metal)" rx="4" stroke="#334155" stroke-width="2"/>
+    <rect x="50" y="60" width="380" height="40" fill="url(#metal)" rx="4" stroke="#334155" stroke-width="2"/>
+    <rect x="80" y="10" width="320" height="40" fill="url(#metal)" rx="4" stroke="#334155" stroke-width="2"/>
+  </g>
+  <!-- Scale Stamp Overlay -->
+  <rect x="360" y="270" width="200" height="90" rx="8" fill="#1e222d" stroke="#f59e0b" stroke-width="2" />
+  <text x="375" y="300" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12" font-weight="600">CERTIFIED SCALE NET:</text>
+  <text x="375" y="332" fill="#fbbf24" font-family="monospace" font-size="24" font-weight="bold">15,000 kg</text>
+  <text x="375" y="350" fill="#64748b" font-family="system-ui, sans-serif" font-size="11">Batch BP-4491 • St3</text>
+  <!-- Warehouse Tag -->
+  <rect x="40" y="30" width="160" height="32" rx="6" fill="#3b82f6" fill-opacity="0.2" stroke="#3b82f6" stroke-width="1.5" />
+  <text x="52" y="51" fill="#60a5fa" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">STEEL BILLET INTAKE</text>
+</svg>

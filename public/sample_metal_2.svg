@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="sheet" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#cbd5e1" />
+      <stop offset="50%" stop-color="#94a3b8" />
+      <stop offset="100%" stop-color="#64748b" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg)" rx="12" />
+  <!-- Steel Sheets Stack -->
+  <g transform="translate(70, 90)">
+    <polygon points="40,180 440,180 400,100 0,100" fill="url(#sheet)" stroke="#475569" stroke-width="1.5"/>
+    <polygon points="40,165 440,165 400,85 0,85" fill="url(#sheet)" stroke="#475569" stroke-width="1.5"/>
+    <polygon points="40,150 440,150 400,70 0,70" fill="url(#sheet)" stroke="#475569" stroke-width="1.5"/>
+    <polygon points="40,135 440,135 400,55 0,55" fill="url(#sheet)" stroke="#475569" stroke-width="1.5"/>
+    <polygon points="40,120 440,120 400,40 0,40" fill="url(#sheet)" stroke="#e2e8f0" stroke-width="1.5"/>
+  </g>
+  <!-- Scale Stamp Overlay -->
+  <rect x="360" y="270" width="200" height="90" rx="8" fill="#1e222d" stroke="#10b981" stroke-width="2" />
+  <text x="375" y="300" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12" font-weight="600">CERTIFIED SCALE NET:</text>
+  <text x="375" y="332" fill="#34d399" font-family="monospace" font-size="24" font-weight="bold">8,500 kg</text>
+  <text x="375" y="350" fill="#64748b" font-family="system-ui, sans-serif" font-size="11">Sheet 3mm • SeverStal</text>
+  <!-- Warehouse Tag -->
+  <rect x="40" y="30" width="160" height="32" rx="6" fill="#10b981" fill-opacity="0.2" stroke="#10b981" stroke-width="1.5" />
+  <text x="52" y="51" fill="#34d399" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">SHEET METAL INTAKE</text>
+</svg>

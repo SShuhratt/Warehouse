@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="rebar" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#64748b" />
+      <stop offset="50%" stop-color="#475569" />
+      <stop offset="100%" stop-color="#334155" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg)" rx="12" />
+  <!-- Rebar lines with ribs -->
+  <g transform="translate(60, 80)">
+    <line x1="20" y1="40" x2="480" y2="40" stroke="#94a3b8" stroke-width="14" stroke-dasharray="16,8" stroke-linecap="round"/>
+    <line x1="20" y1="80" x2="480" y2="80" stroke="#94a3b8" stroke-width="14" stroke-dasharray="16,8" stroke-linecap="round"/>
+    <line x1="20" y1="120" x2="480" y2="120" stroke="#94a3b8" stroke-width="14" stroke-dasharray="16,8" stroke-linecap="round"/>
+    <line x1="20" y1="160" x2="480" y2="160" stroke="#94a3b8" stroke-width="14" stroke-dasharray="16,8" stroke-linecap="round"/>
+  </g>
+  <!-- Scale Stamp Overlay -->
+  <rect x="360" y="270" width="200" height="90" rx="8" fill="#1e222d" stroke="#ec4899" stroke-width="2" />
+  <text x="375" y="300" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12" font-weight="600">CERTIFIED SCALE NET:</text>
+  <text x="375" y="332" fill="#f472b6" font-family="monospace" font-size="24" font-weight="bold">25,000 kg</text>
+  <text x="375" y="350" fill="#64748b" font-family="system-ui, sans-serif" font-size="11">A500C 16mm • TMS</text>
+  <!-- Warehouse Tag -->
+  <rect x="40" y="30" width="160" height="32" rx="6" fill="#ec4899" fill-opacity="0.2" stroke="#ec4899" stroke-width="1.5" />
+  <text x="52" y="51" fill="#f472b6" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">REBAR A500C INTAKE</text>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="hexgrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#94a3b8" />
+      <stop offset="100%" stop-color="#475569" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg)" rx="12" />
+  <!-- Hexagon bundle -->
+  <g transform="translate(160, 100)">
+    <polygon points="40,10 70,25 70,55 40,70 10,55 10,25" fill="url(#hexgrad)" stroke="#38bdf8" stroke-width="2"/>
+    <polygon points="100,10 130,25 130,55 100,70 70,55 70,25" fill="url(#hexgrad)" stroke="#38bdf8" stroke-width="2"/>
+    <polygon points="70,55 100,70 100,100 70,115 40,100 40,70" fill="url(#hexgrad)" stroke="#38bdf8" stroke-width="2"/>
+    <polygon points="130,55 160,70 160,100 130,115 100,100 100,70" fill="url(#hexgrad)" stroke="#38bdf8" stroke-width="2"/>
+    <polygon points="100,100 130,115 130,145 100,160 70,145 70,115" fill="url(#hexgrad)" stroke="#38bdf8" stroke-width="2"/>
+  </g>
+  <!-- Scale Stamp Overlay -->
+  <rect x="360" y="270" width="200" height="90" rx="8" fill="#1e222d" stroke="#38bdf8" stroke-width="2" />
+  <text x="375" y="300" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12" font-weight="600">CERTIFIED SCALE NET:</text>
+  <text x="375" y="332" fill="#38bdf8" font-family="monospace" font-size="24" font-weight="bold">4,200 kg</text>
+  <text x="375" y="350" fill="#64748b" font-family="system-ui, sans-serif" font-size="11">Hexagon 40X • UralMet</text>
+  <!-- Warehouse Tag -->
+  <rect x="40" y="30" width="160" height="32" rx="6" fill="#38bdf8" fill-opacity="0.2" stroke="#38bdf8" stroke-width="1.5" />
+  <text x="52" y="51" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">HEXAGON BARS INTAKE</text>
+</svg>
